@@ -14,6 +14,8 @@ import packet_pkg::*;
 packet p;
 
 initial begin
+  // Set the instance name argument to a string matching the handle name, 
+  // and an appropriate value for the source generation
   p = new("p",0);
   p.data = 42;
   p.target = 2;
