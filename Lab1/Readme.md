@@ -19,5 +19,5 @@ The objective of this lab is to declare switch packet properties and methods.
 ### 2. Initial Packet Testing
 
 - Create packet instance
-- Assign data and target properties to non-zero values
+- Assign 'data' and 'target' properties to non-zero values
 - Print the instance using different print policies
