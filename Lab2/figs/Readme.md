@@ -24,6 +24,13 @@ So, when randomization fails, nothing is changed in the packet and it is as if
 the randomization was never called.
 ![after_forced_constraint_violation_2](after_forced_constraint_violation_2.png)
 
+
+![SV_2](SV_2.png)
+
+
+![SV_3](SV_3.png)
+
+
 The optional part of this lab is to declare ptype as rand and add conditional 
 constraints for target depending on ptype.
 In the test module, add the inline constraint to prevent ptype from being ANY, 
@@ -34,14 +41,7 @@ prevents target being 4'hf.
 We should see more MULTICAST packets than SINGLE, as there are 10 
 possible targets for MULTICAST and only 4 for SINGLE.
 Therefore, with default ordering, MULTICAST packets are approximately twice 
-as likely. Here 7 Multicast to 3 Single
-![SV_2](SV_2.png)
-
-
-![SV_3](SV_3.png)
-
-
-        
+as likely. Here 7 Multicast to 3 Single        
 
 ![SV_4](SV_4.png)
 
