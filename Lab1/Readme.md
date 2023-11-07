@@ -3,7 +3,7 @@
 ## Objective
 The objective of this lab is to declare switch packet properties and methods.
 
-1. Create Basic Packet
+**1. Create Basic Packet**
 
 ### Switch Packet Basic Properties
 - Local String Property - 'name'
@@ -16,7 +16,8 @@ The objective of this lab is to declare switch packet properties and methods.
 - `getname()`: To return instance name as a string.
 - `print()`: To display all packet properties.
 
-2. Initial Packet Testing
-- Created packet instance
-- Assigned data and target properties to non-zero values
-- Printed the instance using different print policies
+**2. Initial Packet Testing**
+
+Create packet instance
+Assign data and target properties to non-zero values
+Print the instance using different print policies
