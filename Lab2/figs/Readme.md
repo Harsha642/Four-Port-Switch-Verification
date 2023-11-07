@@ -8,6 +8,8 @@ To test randomization, we edited `packet_test.sv` to randomize and print 10 inst
 
 ![Before Constraint Violation](before_constraint_violation_1.png)
 
+
+## Randomization Failure
 We can force a constraint violation by adding the inline constraint for `target = 4'hf` and then print the packet.
 
 ![code2](code2.png)
@@ -16,7 +18,7 @@ We should then see the constraint violation report, which tells us that randomiz
 
 ![After Forced Constraint Violation](after_forced_constraint_violation_2.png)
 
-## Randomization Failure
+
 
 ![SV_2](SV_2.png)
 
