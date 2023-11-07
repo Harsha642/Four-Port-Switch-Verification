@@ -22,7 +22,7 @@ The key point is that the packet print after the randomization failure is exactl
 same as the packet print before the failure.
 So, when randomization fails, nothing is changed in the packet and it is as if 
 the randomization was never called.
-![after_forced_constraint_violation_1](after_forced_constraint_violation_1.png)
+![after_forced_constraint_violation_2](after_forced_constraint_violation_2.png)
 
 
 ![SV_2](SV_2.png)
