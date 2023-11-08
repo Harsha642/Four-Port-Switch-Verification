@@ -26,7 +26,8 @@ class packet;
   tag_t tagmode;
   int tag;
   static int pktcount;
-
+// static int property pktcount and the dynamic int property tag
+  
   // constructor sets source and packet type
   function new (string name, int idt);
     this.name = name;
