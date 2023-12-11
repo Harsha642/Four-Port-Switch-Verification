@@ -41,6 +41,8 @@ class packet;
                           ptype == MULTICAST -> target inside {3,[5:7],[9:14]};
                           ptype == BROADCAST -> target == 15;} 
 */
+
+//  we comment out the conditional and ordering constraints we added in the optional part of lab2
  // print with policy
   function void print(input pp_t pp = BIN);
     $display("\n----------------------------------");
