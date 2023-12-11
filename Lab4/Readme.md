@@ -16,3 +16,7 @@ The objective of this lab is to define and use packet subclasses in a programmin
 ## Testing Packet Sub-classes
 - Utilize a `foreach` loop to randomly create instances of the packet subclasses.
 - Use another `foreach` loop to print each array element.
+
+
+## Outputs
+![Static_output](Static_output.png)
