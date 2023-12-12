@@ -19,6 +19,10 @@ psingle ps;
 pbroadcast pb;
 pmulticast pm;
 
+
+// We use a foreach to iterate over every element of the packet array. 
+// In the randcase, each case branch constructs an instance of a subclass, randomizes the instance  
+// and copies it to the next element of the array  
 initial begin
   foreach (parray [i])
     randcase
