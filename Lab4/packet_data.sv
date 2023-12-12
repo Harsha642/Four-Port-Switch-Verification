@@ -65,6 +65,10 @@ class packet;
  
   endclass
 
+// we declare the subclasses for single, multicast and broadcast packets. 
+// The subclass constructors take the same name and idt arguments as the 
+// packet constructor and pass the arguments to the packet class with a super.new call as the first 
+// line of the constructor.
   // single packet sub-class
   class psingle extends packet;
     constraint csingle {target inside {1,2,4,8};}
@@ -86,6 +90,9 @@ class packet;
   endclass
 
   // broadcast packet sub-class
+//In the pbroadcast subclass, we need to remove the ts_bits packet constraint 
+//which prevents the same bit being set in source and target. We do this by redeclaring the ts_bits constraint as empty.
+
   class pbroadcast extends packet;
     // remove basic constraint from packet parent!!
     constraint ts_bits {}
